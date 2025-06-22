@@ -1,6 +1,6 @@
 # Food Spoilage Detection Web App
 
-This project is an end-to-end web application for predicting food spoilage using sensor data and machine learning. It features a Python Flask backend for model inference and a modern, responsive frontend for user interaction.
+This project is an Iot Food expiry prediction using multiple sensors data and machine learning algorithm  with an end-to-end web application for alerting. It features a Python Flask backend for model inference and a modern, responsive frontend for user interaction.
 
 ---
 
