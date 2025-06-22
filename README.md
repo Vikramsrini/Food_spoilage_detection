@@ -36,7 +36,7 @@ Food spoilage/
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/food-spoilage-detection.git
+git clone https://github.com/Vikramsrini/Food-spoilage-detection.git
 cd food-spoilage-detection
 ```
 
@@ -134,18 +134,6 @@ flask-cors
 
 ---
 
-## License
-
-MIT License
-
----
-
-## Author
-
-[Your Name]  
-[Your GitHub Profile]
-
----
 
 ## Acknowledgements
 
