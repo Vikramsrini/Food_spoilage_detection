@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Spoilage Detector</title>
+    <link rel="stylesheet" href="./static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>🍎Food Spoilage Detector</h1>
+        <p class="subtitle">Monitor your food's freshness with sensor technology</p>
+    </header>
+
+    <main class="form-container">
+        <form id="spoilage-form">
+            <div class="input-group">
+                <input type="number" id="MQ8A" name="MQ8A" placeholder=" " required>
+                <label for="MQ8A">MQ8A (Hydrogen)</label>
+                <span class="tooltip">ℹ
+                    <span class="tooltiptext">Measures hydrogen gas levels (0-1023 range)</span>
+                </span>
+            </div>
+
+            <div class="input-group">
+                <input type="number" id="MQ135A" name="MQ135A" placeholder=" " required>
+                <label for="MQ135A">MQ135A (Air Quality)</label>
+                <span class="tooltip">ℹ
+                    <span class="tooltiptext">Detects CO₂, ammonia and VOCs (0-1023 range)</span>
+                </span>
+            </div>
+
+            <div class="input-group">
+                <input type="number" id="MQ9A" name="MQ9A" placeholder=" " required>
+                <label for="MQ9A">MQ9A (CO/Methane)</label>
+                <span class="tooltip">ℹ
+                    <span class="tooltiptext">Monitors carbon monoxide and methane (0-1023 range)</span>
+                </span>
+            </div>
+
+            <div class="input-group">
+                <input type="number" id="MQ4A" name="MQ4A" placeholder=" " required>
+                <label for="MQ4A">MQ4A (Methane)</label>
+            </div>
+
+            <div class="input-group">
+                <input type="number" id="MQ2A" name="MQ2A" placeholder=" " required>
+                <label for="MQ2A">MQ2A (LPG/Smoke)</label>
+            </div>
+
+            <div class="input-group">
+                <input type="number" id="MQ3A" name="MQ3A" placeholder=" " required>
+                <label for="MQ3A">MQ3A (Alcohol)</label>
+            </div>
+
+            <div class="btn-group">
+                <button type="submit" class="btn btn-primary">Analyze Freshness</button>
+                <button type="button" class="btn btn-secondary" id="sample-btn">Load Sample Data</button>
+            </div>
+        </form>
+    </main>
+
+    <div class="result-container" id="result">
+        <!-- Results will be inserted here by JavaScript -->
+    </div>
+
+    <script src="./static/script.js"></script>
+</body>
+</html>
